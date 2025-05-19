@@ -1,0 +1,50 @@
+body {
+    background-color: #313131;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.combine {
+    margin-top: 50px;
+    text-align: center;
+    background: #212121;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.input>input {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    outline: 0;
+    font-size: 20px;
+}
+
+button {
+    padding: 0px 20px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.selected {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.scroll {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

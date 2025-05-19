@@ -1,0 +1,92 @@
+body {
+    background-color: #313131;
+    color: white;
+}
+
+.currency {
+    text-align: center;
+    max-width: 650px;
+    margin: 50px auto;
+    background-color: rgb(221 216 216 / 11%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.combine {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px 20px 10px;
+    border-radius: 15px;
+    background: #44445678;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    padding: 5px;
+    width: 75px;
+    outline: 0;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.upper,
+.lower {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0px;
+    background: #77c8e3ad;
+    align-items: end;
+}
+
+.btn1 {
+    padding: 15px 25px;
+    width: 100px;
+    margin: auto;
+    font-size: 18px;
+    background: #026fa6;
+    color: white;
+    border: none;
+    margin: -10px auto -15px;
+    z-index: 5;
+}
+
+input {
+    padding: 7px;
+    border: none;
+    outline: 0;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+button {
+    width: 200px;
+    margin: 10px auto 0px;
+    padding: 17px;
+    border: none;
+    border-radius: 7px;
+    background: #0b7699;
+    font-size: 17px;
+    color: white;
+}
+
+input {
+    background: aliceblue;
+}
+
+.input-cmb {
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    flex-direction: column;
+}
+
+label {
+    font-size: 17px;
+    font-weight: 400;
+}
