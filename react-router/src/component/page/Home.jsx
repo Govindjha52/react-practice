@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import image4 from './assets/image4';
 export default function Home() {
   return (
     <div className="mx-auto w-full max-w-7xl">

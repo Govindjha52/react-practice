@@ -48,3 +48,7 @@ body {
 .read-the-docs {
     color: #888;
 }
+
+p {
+    text-align: justify;
+}
